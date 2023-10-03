@@ -1,7 +1,7 @@
 <script lang="js" setup></script>
 
 <template>
-  <v-app-bar-title>Page d'accueil</v-app-bar-title>
+  <h2>Page d'accueil</h2>
 </template>
 
 <style scoped></style>
