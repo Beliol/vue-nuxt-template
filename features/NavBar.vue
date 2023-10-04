@@ -1,5 +1,5 @@
 <script lang="js" setup>
-const props = defineProps(["drawer"]);
+const props = defineProps(["drawer", "changeDrawer"]);
 </script>
 
 <template>
@@ -8,14 +8,12 @@ const props = defineProps(["drawer"]);
       <v-list-item title="Navigation drawer"></v-list-item>
 
       <v-list-item>
-        <NuxtLink to="/">Accueil</NuxtLink>
+        <NuxtLink to="/" @click="changeDrawer">Accueil</NuxtLink>
       </v-list-item>
 
       <v-list-item>
-        <NuxtLink to="/login">Connexion</NuxtLink>
+        <NuxtLink to="/login" @click="changeDrawer">Connexion</NuxtLink>
       </v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
-
-<style scoped></style>

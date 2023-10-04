@@ -1,5 +1,5 @@
 <script lang="js" setup></script>
 
 <template>
-  <h2>Page d'accueil</h2>
+  <h2>Register page</h2>
 </template>

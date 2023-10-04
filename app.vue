@@ -12,8 +12,8 @@ function changeDrawer() {
 <template>
   <v-layout class="layout-app">
     <header>
-      <AppBar :changeDrawer="changeDrawer" />
-      <NavBar :drawer="drawer" />
+      <AppBar :change-drawer="changeDrawer" />
+      <NavBar :change-drawer="changeDrawer" :drawer="drawer" />
     </header>
 
     <v-main class="main-app">
