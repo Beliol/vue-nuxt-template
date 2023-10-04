@@ -1,6 +1,6 @@
 <script lang="js" setup>
-import AppBar from "~/features/AppBar.vue";
-import NavBar from "~/features/NavBar.vue";
+import AppBar from "~/features/header/AppBar.vue";
+import NavBar from "~/features/header/NavBar.vue";
 
 const drawer = ref(false);
 
